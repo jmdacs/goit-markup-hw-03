@@ -236,6 +236,12 @@ button {
     line-height: 24px;  
 }
 
+.doing-list{
+    margin-left: 156px;
+    display: flex;
+    margin-top: 80px;
+    
+}
 
 .doing-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -247,12 +253,19 @@ button {
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    margin-top: 100px;
 }
 
 .doing-list-item{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 15px;
+}
+
+.container-team {
+    margin-left: 156px;
+    
 }
 
 .team {
@@ -273,7 +286,9 @@ button {
     font-family: Roboto;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-
+    margin-top:100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .team-list-item {
@@ -283,6 +298,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    margin-right: 24px;
 
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
@@ -303,6 +319,7 @@ button {
 
     color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.4px;
+    margin-top: 32px;
 }
 
 .team-item-description{
@@ -403,14 +420,20 @@ button {
     letter-spacing: 0.32px;
 }
 
+.container-footer {
+    margin-left: 156px;
+    display: block;
+}
+
 .footer {
     width: 1440px;
-    height: 100px;
+    /*height: 100px;*/
     flex-shrink: 0;
 
     background: var(--navyblue);
 }
 .footer-link{
+    display: flex;
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
@@ -419,6 +442,9 @@ button {
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+
+    /*margin-top: 101.5px;*/
+    padding-top: 50px;
 }
 .footer-span{
     color: var(--IRIS, #4D5AE5);
@@ -432,5 +458,7 @@ button {
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+    padding-bottom: 100px;
+    padding-top: 17.5px;
 }
 
