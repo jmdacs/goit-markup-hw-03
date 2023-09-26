@@ -265,7 +265,7 @@ button {
 
 .container-team {
     margin-left: 156px;
-    
+    padding-bottom:120px;
 }
 
 .team {
@@ -286,9 +286,9 @@ button {
     font-family: Roboto;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    margin-top:100px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    /*margin-top:100px;*/
+    padding-top: 32px;
+    padding-bottom: 8x;
 }
 
 .team-list-item {
@@ -319,7 +319,7 @@ button {
 
     color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.4px;
-    margin-top: 32px;
+    /*margin-top: 32px;*/
 }
 
 .team-item-description{
