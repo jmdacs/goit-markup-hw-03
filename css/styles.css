@@ -266,6 +266,7 @@ button {
 .container-team {
     margin-left: 156px;
     padding-bottom:120px;
+    margin-top: 120px;
 }
 
 .team {
@@ -286,9 +287,9 @@ button {
     font-family: Roboto;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    /*margin-top:100px;*/
-    padding-top: 32px;
-    padding-bottom: 8x;
+    
+    padding-top: 120px;
+    padding-bottom: 72x;
 }
 
 .team-list-item {
@@ -299,6 +300,7 @@ button {
     align-items: center;
     gap: 32px;
     margin-right: 24px;
+    padding-top: 72px;
 
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
@@ -319,7 +321,7 @@ button {
 
     color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.4px;
-    /*margin-top: 32px;*/
+    
 }
 
 .team-item-description{
@@ -332,7 +334,7 @@ button {
 
     text-align: center;
     letter-spacing: 0.32px;
-
+    padding-bottom: 32px;
 }
 
 
