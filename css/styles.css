@@ -60,6 +60,11 @@ button {
     flex-shrink: 0*/
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
 .container-header {
     margin-left: 156px;
     display: flex;
