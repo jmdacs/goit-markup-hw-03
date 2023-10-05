@@ -11,7 +11,8 @@ body {
 }
 
 ul {
-    list-style-type: none;
+    margin: 0;
+    padding: 0;;
 }
 
 a {
@@ -68,8 +69,8 @@ button {
 .container-header {
     margin-left: 156px;
     display: flex;
-    margin-top: 25.5px;
-    margin-bottom: 25.5px;
+    justify-content: space-between;
+    
     /*width: 1440px;
     height: 72px;
     justify-content: center;
@@ -77,8 +78,17 @@ button {
     flex-shrink: 0;*/
 }
 
-.nav, .address {
+/*.nav, .address {
     display: inline-block;
+}*/
+
+/*nav {
+    display: block;
+}*/
+
+.nav {
+    display: inline-flex;
+    gap: 76px;
 }
 
 .nav-link {
@@ -86,12 +96,11 @@ button {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17em; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    padding-right: 76px;
+    
 }
 
 .nav-span {
@@ -99,10 +108,13 @@ button {
 }
 
 .nav-list {
-    display: inline-block;
+    /*display: inline-block;
     color: var(--navyblue);
     width: 1;
     /*height: 1;*/
+    display: flex;
+    gap: 40px;
+    list-style: none;
 }
 
 .nav-item-link {
@@ -124,13 +136,22 @@ button {
     color: var(--ocean);
 }
 
+.address {
+    font-style: normal;
+    display: block;
+}
+
 .address-list{
-    display: inline-block;
+    /*display: inline-block;*/
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
 }
 
 .address-list-item{
     display: inline-block;
-    margin-right: 40px;
+    margin-right: auto;
 }
 
 .address-list-item:first-child{
@@ -138,7 +159,6 @@ button {
 }
 
 .address-list, 
-.address-list-item,
 .address-item-link {
     
     color: var(--slate);
