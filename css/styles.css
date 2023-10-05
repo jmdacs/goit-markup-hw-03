@@ -54,7 +54,7 @@ button {
 .header {
     background-color: var(--white);
     border-bottom: 1px solid var(--cornflower) ;
-
+    padding: 24px 0px;
     /*width: 1440px;
     height: 600px;
     flex-shrink: 0*/
@@ -75,13 +75,14 @@ button {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;*/
-}*/
+}
 
 .nav, .address {
     display: inline-block;
 }
 
 .nav-link {
+    text-decoration: none;
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
@@ -90,11 +91,6 @@ button {
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-}
-
-.nav-link {
-    margin-top: 25.5px;
-    margin-bottom: 25.5px;
     padding-right: 76px;
 }
 
@@ -106,7 +102,7 @@ button {
     display: inline-block;
     color: var(--navyblue);
     width: 1;
-    height: 1;
+    /*height: 1;*/
 }
 
 .nav-item-link {
