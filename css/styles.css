@@ -169,7 +169,15 @@ button {
     letter-spacing: 0.32px;
 }
 
-
+.container-hero {
+    margin-left: 156px;
+    
+    /*width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;*/
+}
 
 .hero {
     width: 1440px;
@@ -189,7 +197,7 @@ button {
 
     color: var(--white);
     text-align: center;
-    padding-top: 212px;
+    padding-top: 188px;
 }
 
 .hero-button{
@@ -197,11 +205,11 @@ button {
     border-radius: 4px;
     background: var(--iris);
     color: var(--white);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);    
     padding: 16px 32px;
 
     align: center;
-    margin-top: 20px;
+    margin-top: 48px;
 /*    display: inline-flex;
     align-items: flex-start;
     gap: 10px; */
@@ -227,10 +235,16 @@ button {
     flex-shrink: 0;*/
 }
 
-.features,
+/*.features,
 .features-list,
 .features-list-item{
     display: inline-block;
+}*/
+
+.features-list{
+    display: flex;
+    list-style: none;
+    gap: 8px;
 }
 
 .features-list-item{
